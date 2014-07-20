@@ -1,0 +1,148 @@
+1      [main] ERROR JFCRipperMain - resources\config\terminal_widget.ign not found
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:72)
+	at edu.umd.cs.guitar.util.Util.getListFromFile(Unknown Source)
+	at edu.umd.cs.guitar.model.JFCConstants.<clinit>(Unknown Source)
+	at edu.umd.cs.guitar.ripper.JFCRipper.setupEnv(Unknown Source)
+	at edu.umd.cs.guitar.ripper.JFCRipper.execute(Unknown Source)
+	at edu.umd.cs.guitar.ripper.JFCRipperMain.main(Unknown Source)
+14     [main] DEBUG JFCRipperMain - ===========================
+14     [main] DEBUG JFCRipperMain - All URLs: 
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/jemmy.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-CoverAllEvents.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/easymock-2.5.2.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUITARModel-Core.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIRipper-Core.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-CoverAllFGEdges.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-SequenceLengthCoverage.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Core.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIReplayer-Plugin-JFC.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-MinEdgeCoverage.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/ant-junit.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/junit.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/log4j-1.2.15.jar
+14     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/easymockclassextension.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIReplayer-Core.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIStructure2Graph-Core.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/args4j-2.0.10.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIStructure2Graph-Plugin-EventFlowGraph.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/cglib-nodep-2.1_3.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/aut/RicordaPSW.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUITARModel-Plugin-JFC.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-MinEventCoverage.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIRipper-Plugin-JFC.jar
+15     [main] DEBUG JFCRipperMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-RandomTestCase.jar
+15     [main] DEBUG JFCRipperMain - ===========================
+85     [main] DEBUG JFCRipperMain - =============================
+85     [main] DEBUG JFCRipperMain - Application parameters: 
+85     [main] DEBUG JFCRipperMain - 	${application.arguments}
+85     [main] DEBUG JFCRipperMain - =============================
+3201   [main] INFO  JFCRipperMain - Number of root windows: 1
+3201   [main] INFO  JFCRipperMain - ----------------------------
+3201   [main] INFO  JFCRipperMain - Ripping window: *Ricorda Password*
+3202   [main] DEBUG JFCRipperMain - Ripping component: *Ricorda Password* in window *Ricorda Password*
+3215   [main] DEBUG JFCRipperMain - Ripping component: *Pos(3,26)* in window *Ricorda Password*
+3219   [main] DEBUG JFCRipperMain - Ripping component: *null.glassPane* in window *Ricorda Password*
+3223   [main] DEBUG JFCRipperMain - Ripping component: *null.layeredPane* in window *Ricorda Password*
+3227   [main] DEBUG JFCRipperMain - Ripping component: *null.contentPane* in window *Ricorda Password*
+3229   [main] DEBUG JFCRipperMain - Ripping component: *Pos(10,199)* in window *Ricorda Password*
+3232   [main] DEBUG JFCRipperMain - Ripping component: *Pos(10,407)* in window *Ricorda Password*
+3234   [main] DEBUG JFCRipperMain - Ripping component: *Aggiungi un nuovo elemento* in window *Ricorda Password*
+3237   [main] DEBUG JFCRipperMain - Ripping component: *Visualizza Password* in window *Ricorda Password*
+3243   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,106)* in window *Ricorda Password*
+3248   [main] INFO  JFCRipperMain - Expanding *Pos(33,106)*...
+3248   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+3749   [main] DEBUG JFCRipperMain - Ripping component: *Password* in window *Ricorda Password*
+3750   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,36)* in window *Ricorda Password*
+3752   [main] INFO  JFCRipperMain - Expanding *Pos(33,36)*...
+3752   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+4253   [main] DEBUG JFCRipperMain - Ripping component: *ComboPopup.popup* in window *Ricorda Password*
+4255   [main] DEBUG JFCRipperMain - Ripping component: *ComboBox.scrollPane* in window *Ricorda Password*
+4256   [main] DEBUG JFCRipperMain - Ripping component: *Pos(0,0)* in window *Ricorda Password*
+4257   [main] DEBUG JFCRipperMain - Ripping component: *ComboBox.list* in window *Ricorda Password*
+4259   [main] DEBUG JFCRipperMain - Ripping component: *Pos(0,0)* in window *Ricorda Password*
+4262   [main] DEBUG JFCRipperMain - Ripping component: ** in window *Ricorda Password*
+4265   [main] DEBUG JFCRipperMain - Ripping component: ** in window *Ricorda Password*
+4266   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,74)* in window *Ricorda Password*
+4267   [main] INFO  JFCRipperMain - Expanding *Pos(33,74)*...
+4267   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+4767   [main] DEBUG JFCRipperMain - Ripping component: *Seleziona* in window *Ricorda Password*
+4767   [main] DEBUG JFCRipperMain - Ripping component: *Username* in window *Ricorda Password*
+4768   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,256)* in window *Ricorda Password*
+4769   [main] INFO  JFCRipperMain - Expanding *Pos(33,256)*...
+4769   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+5270   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,334)* in window *Ricorda Password*
+5271   [main] INFO  JFCRipperMain - Expanding *Pos(33,334)*...
+5271   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+5771   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,295)* in window *Ricorda Password*
+5771   [main] INFO  JFCRipperMain - Expanding *Pos(33,295)*...
+5773   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+6274   [main] DEBUG JFCRipperMain - Ripping component: *Pulisci* in window *Ricorda Password*
+6274   [main] INFO  JFCRipperMain - Expanding *Pulisci*...
+6275   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+6776   [main] DEBUG JFCRipperMain - Ripping component: *Salva* in window *Ricorda Password*
+6776   [main] INFO  JFCRipperMain - Expanding *Salva*...
+6777   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+7277   [main] DEBUG JFCRipperMain - Ripping component: *Password* in window *Ricorda Password*
+7277   [main] DEBUG JFCRipperMain - Ripping component: *Nome* in window *Ricorda Password*
+7278   [main] DEBUG JFCRipperMain - Ripping component: *Username* in window *Ricorda Password*
+7278   [main] DEBUG JFCRipperMain - Ripping component: *Elimina elemento* in window *Ricorda Password*
+7279   [main] INFO  JFCRipperMain - Expanding *Elimina elemento*...
+7279   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+7780   [main] DEBUG JFCRipperMain - Ripping component: *Esegui backup* in window *Ricorda Password*
+7781   [main] INFO  JFCRipperMain - Expanding *Esegui backup*...
+7781   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+8281   [main] DEBUG JFCRipperMain - Ripping component: *null.contentPane* in window *Ricorda Password*
+8281   [main] DEBUG JFCRipperMain - Ripping component: *Pos(10,199)* in window *Ricorda Password*
+8282   [main] DEBUG JFCRipperMain - Ripping component: *Pos(10,407)* in window *Ricorda Password*
+8282   [main] DEBUG JFCRipperMain - Ripping component: *Aggiungi un nuovo elemento* in window *Ricorda Password*
+8283   [main] DEBUG JFCRipperMain - Ripping component: *Visualizza Password* in window *Ricorda Password*
+8284   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,106)* in window *Ricorda Password*
+8285   [main] INFO  JFCRipperMain - Expanding *Pos(33,106)*...
+8285   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+8786   [main] DEBUG JFCRipperMain - Ripping component: *Password* in window *Ricorda Password*
+8786   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,36)* in window *Ricorda Password*
+8787   [main] INFO  JFCRipperMain - Expanding *Pos(33,36)*...
+8787   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+9287   [main] DEBUG JFCRipperMain - Ripping component: *ComboPopup.popup* in window *Ricorda Password*
+9287   [main] DEBUG JFCRipperMain - Ripping component: *ComboBox.scrollPane* in window *Ricorda Password*
+9288   [main] DEBUG JFCRipperMain - Ripping component: *Pos(0,0)* in window *Ricorda Password*
+9288   [main] DEBUG JFCRipperMain - Ripping component: *ComboBox.list* in window *Ricorda Password*
+9289   [main] DEBUG JFCRipperMain - Ripping component: *Pos(0,0)* in window *Ricorda Password*
+9289   [main] DEBUG JFCRipperMain - Ripping component: ** in window *Ricorda Password*
+9290   [main] DEBUG JFCRipperMain - Ripping component: ** in window *Ricorda Password*
+9291   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,74)* in window *Ricorda Password*
+9292   [main] INFO  JFCRipperMain - Expanding *Pos(33,74)*...
+9293   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+9794   [main] DEBUG JFCRipperMain - Ripping component: *Seleziona* in window *Ricorda Password*
+9794   [main] DEBUG JFCRipperMain - Ripping component: *Username* in window *Ricorda Password*
+9795   [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,256)* in window *Ricorda Password*
+9795   [main] INFO  JFCRipperMain - Expanding *Pos(33,256)*...
+9795   [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+10295  [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,334)* in window *Ricorda Password*
+10296  [main] INFO  JFCRipperMain - Expanding *Pos(33,334)*...
+10296  [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+10797  [main] DEBUG JFCRipperMain - Ripping component: *Pos(33,295)* in window *Ricorda Password*
+10798  [main] INFO  JFCRipperMain - Expanding *Pos(33,295)*...
+10798  [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+11299  [main] DEBUG JFCRipperMain - Ripping component: *Pulisci* in window *Ricorda Password*
+11299  [main] INFO  JFCRipperMain - Expanding *Pulisci*...
+11300  [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+11800  [main] DEBUG JFCRipperMain - Ripping component: *Salva* in window *Ricorda Password*
+11800  [main] INFO  JFCRipperMain - Expanding *Salva*...
+11800  [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+12301  [main] DEBUG JFCRipperMain - Ripping component: *Password* in window *Ricorda Password*
+12301  [main] DEBUG JFCRipperMain - Ripping component: *Nome* in window *Ricorda Password*
+12302  [main] DEBUG JFCRipperMain - Ripping component: *Username* in window *Ricorda Password*
+12303  [main] DEBUG JFCRipperMain - Ripping component: *Elimina elemento* in window *Ricorda Password*
+12303  [main] INFO  JFCRipperMain - Expanding *Elimina elemento*...
+12303  [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+12804  [main] DEBUG JFCRipperMain - Ripping component: *Esegui backup* in window *Ricorda Password*
+12804  [main] INFO  JFCRipperMain - Expanding *Esegui backup*...
+12804  [main] INFO  JFCRipperMain - Waiting  500ms for a new window to open
+13343  [main] INFO  JFCRipperMain - Number of Windows: 1
+13343  [main] INFO  JFCRipperMain - GUI file:C:\Users\Sajmir\Documenti\workspace\workspace\AppAndroid\trunk\RicordaPSW\gtool/./Frame.GUI.xml
+13343  [main] INFO  JFCRipperMain - Open Component file:log_widget.xml
+13344  [main] INFO  JFCRipperMain - Ripping Elapsed: 00 : 00 : 13: 529
+13344  [main] INFO  JFCRipperMain - Log file: Frame.log

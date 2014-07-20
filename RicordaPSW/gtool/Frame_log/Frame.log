@@ -1,0 +1,106 @@
+6      [main] INFO  JFCReplayerMain - Testcase: ./TC/t356.tst
+209    [main] INFO  JFCReplayerMain - Connecting to application...
+210    [main] DEBUG JFCReplayerMain - ===========================
+210    [main] DEBUG JFCReplayerMain - All URLs: 
+210    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/jemmy.jar
+210    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/easymock-2.5.2.jar
+210    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUITARModel-Core.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIRipper-Core.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-SequenceLengthCoverage.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Core.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIReplayer-Plugin-JFC.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/ant-junit.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/junit.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/log4j-1.2.15.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIStructure2Graph-Core.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIStructure2Graph-Plugin-EventFlowGraph.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-MinEventCoverage.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-CoverAllEvents.jar
+211    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-CoverAllFGEdges.jar
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-MinEdgeCoverage.jar
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/easymockclassextension.jar
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIReplayer-Core.jar
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/args4j-2.0.10.jar
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/cglib-nodep-2.1_3.jar
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/aut/RicordaPSW.jar
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUITARModel-Plugin-JFC.jar
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIRipper-Plugin-JFC.jar
+212    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-RandomTestCase.jar
+212    [main] DEBUG JFCReplayerMain - ===========================
+299    [main] DEBUG JFCReplayerMain - ===========================
+299    [main] DEBUG JFCReplayerMain - All URLs: 
+299    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/jemmy.jar
+299    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/easymock-2.5.2.jar
+299    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUITARModel-Core.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIRipper-Core.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-SequenceLengthCoverage.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Core.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIReplayer-Plugin-JFC.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/ant-junit.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/junit.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/log4j-1.2.15.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIStructure2Graph-Core.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIStructure2Graph-Plugin-EventFlowGraph.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-MinEventCoverage.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-CoverAllEvents.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-CoverAllFGEdges.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-MinEdgeCoverage.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/easymockclassextension.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIReplayer-Core.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/args4j-2.0.10.jar
+300    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/cglib-nodep-2.1_3.jar
+301    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/aut/RicordaPSW.jar
+301    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUITARModel-Plugin-JFC.jar
+301    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/
+301    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/GUIRipper-Plugin-JFC.jar
+301    [main] DEBUG JFCReplayerMain - 	/C:/Users/Sajmir/Documenti/workspace/workspace/AppAndroid/trunk/RicordaPSW/gtool/jars/TestCaseGenerator-Plugin-RandomTestCase.jar
+301    [main] DEBUG JFCReplayerMain - ===========================
+301    [main] DEBUG JFCReplayerMain - =============================
+301    [main] DEBUG JFCReplayerMain - Application parameters: 
+301    [main] DEBUG JFCReplayerMain - 	${application.arguments}
+301    [main] DEBUG JFCReplayerMain - =============================
+400    [main] INFO  JFCReplayerMain - Waiting for 500
+900    [main] INFO  JFCReplayerMain - edu.umd.cs.guitar.replayer.monitor.TimeMonitor test monitor applied
+901    [main] INFO  JFCReplayerMain - Executing test case
+901    [main] INFO  JFCReplayerMain - 2
+901    [main] INFO  JFCReplayerMain - ---------------------
+904    [main] INFO  JFCReplayerMain - EventID: e9
+1022   [main] INFO  JFCReplayerMain - Finding window *Ricorda Password*.... 
+1073   [main] INFO  JFCReplayerMain - FOUND
+1073   [main] INFO  JFCReplayerMain - 
+1076   [main] INFO  JFCReplayerMain - Finding widget *w49*.... 
+1076   [main] DEBUG JFCReplayerMain - Componnent signature: 
+1076   [main] DEBUG JFCReplayerMain - edu.umd.cs.guitar.model.wrapper.PropertyTypeWrapper@96532d6
+1076   [main] DEBUG JFCReplayerMain - edu.umd.cs.guitar.model.wrapper.PropertyTypeWrapper@3796751b
+1177   [main] INFO  JFCReplayerMain - FOUND
+1177   [main] INFO  JFCReplayerMain - Widget Title: *Pos(33,295)*
+1177   [main] INFO  JFCReplayerMain - 
+1177   [main] INFO  JFCReplayerMain - Action: *edu.umd.cs.guitar.event.JFCEditableTextHandler
+1179   [main] INFO  JFCReplayerMain - 
+1193   [main] INFO  JFCReplayerMain - Step Timer elapsed Time: 291
+1193   [main] INFO  JFCReplayerMain - Recording GUI state....
+1220   [main] INFO  JFCReplayerMain - DONE
+1220   [main] INFO  JFCReplayerMain - Dumping out state ... 
+1225   [main] INFO  JFCReplayerMain - DONE
+1225   [main] INFO  JFCReplayerMain - ---------------------
+1225   [main] INFO  JFCReplayerMain - EventID: e17
+1259   [main] INFO  JFCReplayerMain - Finding window *Ricorda Password*.... 
+1309   [main] INFO  JFCReplayerMain - FOUND
+1309   [main] INFO  JFCReplayerMain - 
+1309   [main] INFO  JFCReplayerMain - Finding widget *w89*.... 
+1309   [main] DEBUG JFCReplayerMain - Componnent signature: 
+1309   [main] DEBUG JFCReplayerMain - edu.umd.cs.guitar.model.wrapper.PropertyTypeWrapper@2d3fcdbd
+1309   [main] DEBUG JFCReplayerMain - edu.umd.cs.guitar.model.wrapper.PropertyTypeWrapper@617c74e5
+1315   [main] INFO  JFCReplayerMain - FOUND
+1315   [main] INFO  JFCReplayerMain - Widget Title: *Pos(0,0)*
+1315   [main] INFO  JFCReplayerMain - 
+1315   [main] INFO  JFCReplayerMain - Action: *edu.umd.cs.guitar.event.JFCValueHandler
+1315   [main] INFO  JFCReplayerMain - 
+1316   [main] INFO  JFCReplayerMain - Step Timer elapsed Time: 91
+1316   [main] INFO  JFCReplayerMain - Recording GUI state....
+1325   [main] INFO  JFCReplayerMain - DONE
+1325   [main] INFO  JFCReplayerMain - Dumping out state ... 
+1327   [main] INFO  JFCReplayerMain - DONE
+1327   [main] INFO  JFCReplayerMain - GUI state file: ./Frame_sta/t356.tst.Frame.STA.xml
+1328   [main] INFO  JFCReplayerMain - Time Elapsed: 00 : 00 : 01: 586

@@ -1,0 +1,4 @@
+nomeprova;passwordprova;userprova
+pippo;topolino;parerino
+pippo;topolino;paperino
+testCase6;tc6pass;tc6username

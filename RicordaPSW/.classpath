@@ -2,11 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="dist/RicordaPSW.jar"/>
-	<classpathentry kind="lib" path="/Users/sajmirrusi/Downloads/abbot-1.3.0/lib/abbot.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="/Users/sajmirrusi/Downloads/abbot-1.3.0/src.jar"/>
-	<classpathentry kind="lib" path="/Users/sajmirrusi/Downloads/abbot-1.3.0/lib"/>
-	<classpathentry kind="lib" path="/Users/sajmirrusi/Downloads/abbot-1.3.0/lib/costello.jar"/>
+	<classpathentry kind="lib" path="lib/abbot.jar"/>
+	<classpathentry kind="lib" path="lib/costello.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
