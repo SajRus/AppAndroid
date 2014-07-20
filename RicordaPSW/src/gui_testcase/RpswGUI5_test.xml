@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JComboBox" id="JComboBox Instance" index="6" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="Ricorda Password" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="Ricorda Password" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="Ricorda Password" />
+  <component class="Frame" id="Ricorda Password" root="true" title="Ricorda Password" />
+  <launch args="[]" class="Frame" classpath="../build/RicordaPSW.jar" desc="RpswGUI5" method="main" />
+  <assert args="JComboBox Instance" class="abbot.tester.JComboBoxTester" desc="Item presenti [a,hh,pippo,r]" method="getContents" value="[a,hh,pippo,r]" />
+  <sequence>
+    <wait args="Ricorda Password" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+  </sequence>
+  <assert args="JComboBox Instance" class="abbot.tester.JComboBoxTester" desc="Item presenti [a,hh,pippo,r]" method="getContents" value="[a,hh,pippo,r]" />
+  <terminate />
+</AWTTestScript>
+

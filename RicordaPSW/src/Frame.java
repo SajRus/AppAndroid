@@ -1,4 +1,5 @@
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.io.*;
@@ -77,8 +78,7 @@ public class Frame extends javax.swing.JFrame {
         jLabel1.setText("Visualizza Password");
 
         combo.addItemListener(new java.awt.event.ItemListener() {
-            @Override
-			public void itemStateChanged(java.awt.event.ItemEvent evt) {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 comboItemStateChanged(evt);
             }
         });
@@ -117,32 +117,28 @@ public class Frame extends javax.swing.JFrame {
 
         save.setText("Salva");
         save.addMouseListener(new java.awt.event.MouseAdapter() {
-            @Override
-			public void mouseClicked(java.awt.event.MouseEvent evt) {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 saveMouseClicked(evt);
             }
         });
 
         delete.setText("Pulisci");
         delete.addMouseListener(new java.awt.event.MouseAdapter() {
-            @Override
-			public void mouseClicked(java.awt.event.MouseEvent evt) {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 deleteMouseClicked(evt);
             }
         });
 
         back.setText("Esegui backup");
         back.addMouseListener(new java.awt.event.MouseAdapter() {
-            @Override
-			public void mouseClicked(java.awt.event.MouseEvent evt) {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 backMouseClicked(evt);
             }
         });
 
         delet.setText("Elimina elemento");
         delet.addMouseListener(new java.awt.event.MouseAdapter() {
-            @Override
-			public void mouseClicked(java.awt.event.MouseEvent evt) {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 deletMouseClicked(evt);
             }
         });
@@ -299,7 +295,9 @@ public class Frame extends javax.swing.JFrame {
     private void saveMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_saveMouseClicked
         if (nome.getText().equals("") || user.getText().equals("") || psw.getText().equals("")) {
             JOptionPane.showMessageDialog(null, "Devi riempire tutti i campi banana:) !!", "Attenzione", JOptionPane.INFORMATION_MESSAGE);
-        } {
+        	}
+        else //mancante
+        	{
 
             try {
                 lista.add(new Record(nome.getText(), user.getText(), psw.getText()));
@@ -333,8 +331,8 @@ public class Frame extends javax.swing.JFrame {
 
             if (scielta == 0) {
                 try {
-                    //lista.remove(p);
                     fout = new PrintWriter(new FileWriter(path));
+                    lista.remove(p);	//istruzione mancante
                     for (Record x : lista) {
                         fout.println(x.toRecord());
                     }
@@ -351,7 +349,7 @@ public class Frame extends javax.swing.JFrame {
 
     private void comboItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_comboItemStateChanged
         int punt = combo.getSelectedIndex();
-        // System.out.println(punt);
+         System.out.println(punt);
         if (punt >= 0) {
             txtuser.setText(lista.get(punt).getUser());
             txtpsw.setText(lista.get(punt).getPsw());
@@ -401,8 +399,7 @@ public class Frame extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
 
-            @Override
-			public void run() {
+            public void run() {
 
                 try {
                     UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
@@ -462,8 +459,7 @@ public class Frame extends javax.swing.JFrame {
             return (this.nome + ";" + this.user + ";" + this.psw);
         }
 
-        @Override
-		public int compareTo(Object o) {
+        public int compareTo(Object o) {
             Record R = (Record) o;
             return (this.nome.compareTo(R.nome));
         }

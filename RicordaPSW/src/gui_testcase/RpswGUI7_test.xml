@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JButton" id="Esegui backup" index="19" parent="JPanel Instance" text="Esegui backup" window="Ricorda Password" />
+  <component class="javax.swing.JComboBox" id="JComboBox Instance" index="6" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JFileChooser" id="JFileChooser Instance" index="0" parent="JPanel Instance 5" window="Salva" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="Ricorda Password" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance 2" index="1" parent="JRootPane Instance 2" window="Salva" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="Ricorda Password" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 2" index="2" parent="JPanel Instance 3" window="Salva" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 3" index="2" parent="JPanel Instance 4" window="Salva" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 4" index="2" parent="JFileChooser Instance" window="Salva" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 5" index="0" parent="JLayeredPane Instance 2" window="Salva" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 6" index="4" parent="JPanel Instance 3" window="Salva" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="Ricorda Password" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance 2" index="0" parent="Salva" />
+  <component class="javax.swing.JTextField" id="Nome file:" index="1" label="Nome file:" parent="JPanel Instance 2" window="Salva" />
+  <component class="Frame" id="Ricorda Password" root="true" title="Ricorda Password" />
+  <component class="javax.swing.JDialog" id="Salva" parent="shared frame" title="Salva" />
+  <component class="javax.swing.JButton" id="Salva 2" index="1" parent="JPanel Instance 6" text="Salva" window="Salva" />
+  <component class="javax.swing.SwingUtilities$SharedOwnerFrame" id="shared frame" root="true" title="" />
+  <launch args="[]" class="Frame" classpath="../build/RicordaPSW.jar" desc="RpswGUI7" method="main" />
+  <sequence>
+    <wait args="Ricorda Password" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="Esegui backup" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Salva" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="Nome file:,testcase7.txt" method="actionKeyString" />
+    <action args="Salva 2" class="javax.swing.AbstractButton" method="actionClick" />
+  </sequence>
+  <terminate />
+</AWTTestScript>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JComboBox" id="JComboBox Instance" index="6" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="Ricorda Password" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="Ricorda Password" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="Ricorda Password" />
+  <component class="javax.swing.JTextField" id="JTextField Instance" index="10" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JTextField" id="JTextField Instance 2" index="12" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JTextField" id="JTextField Instance 3" index="11" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JLabel" id="Nome" index="16" parent="JPanel Instance" text="Nome" window="Ricorda Password" />
+  <component class="javax.swing.JButton" id="Pulisci" index="13" parent="JPanel Instance" text="Pulisci" window="Ricorda Password" />
+  <component class="Frame" id="Ricorda Password" root="true" title="Ricorda Password" />
+  <launch args="[]" class="Frame" classpath="../build/RicordaPSW.jar" desc="RpswGUI8" method="main" />
+  <sequence>
+    <wait args="Ricorda Password" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="JTextField Instance,0" class="javax.swing.text.JTextComponent" method="actionClick" />
+    <action args="JTextField Instance,pippo" method="actionKeyString" />
+    <action args="JTextField Instance,VK_TAB" method="actionKeyStroke" />
+    <action args="JTextField Instance 2,par90&amp;%7" method="actionKeyString" />
+    <action args="JTextField Instance 2,VK_TAB" method="actionKeyStroke" />
+    <action args="JTextField Instance 3,paperino" method="actionKeyString" />
+    <action args="Pulisci" class="javax.swing.AbstractButton" method="actionClick" />
+  </sequence>
+  <assert component="JTextField Instance" desc="Campo Nome Vuoto" method="getText" value="" />
+  <assert component="JTextField Instance 2" desc="Campo Password Vuoto" method="getText" value="" />
+  <assert component="JTextField Instance 3" desc="Campo Username Vuoto" method="getText" value="" />
+  <terminate />
+</AWTTestScript>
+

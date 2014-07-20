@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JDialog" id="Delete" parent="shared frame" title="Delete" />
+  <component class="javax.swing.JButton" id="Elimina elemento" index="18" parent="JPanel Instance" text="Elimina elemento" window="Ricorda Password" />
+  <component class="javax.swing.JComboBox" id="JComboBox Instance" index="6" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="Ricorda Password" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance 2" index="1" parent="JRootPane Instance 2" window="Delete" />
+  <component class="javax.swing.JOptionPane" id="JOptionPane Instance" index="0" parent="JPanel Instance 2" window="Delete" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="Ricorda Password" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 2" index="0" parent="JLayeredPane Instance 2" window="Delete" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="Ricorda Password" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance 2" index="0" parent="Delete" />
+  <component class="javax.swing.JTextField" id="JTextField Instance" index="10" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JTextField" id="JTextField Instance 2" index="12" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JTextField" id="JTextField Instance 3" index="11" parent="JPanel Instance" window="Ricorda Password" />
+  <component class="javax.swing.JDialog" id="Messaggio" parent="shared frame" title="Messaggio" />
+  <component class="javax.swing.JButton" id="OptionPane.button" index="0" name="OptionPane.button" parent="OptionPane.buttonArea" text="Sì" window="Delete" />
+  <component class="javax.swing.JPanel" id="OptionPane.buttonArea" index="1" name="OptionPane.buttonArea" parent="JOptionPane Instance" window="Delete" />
+  <component class="Frame" id="Ricorda Password" root="true" title="Ricorda Password" />
+  <component class="javax.swing.JButton" id="Salva" index="14" parent="JPanel Instance" text="Salva" window="Ricorda Password" />
+  <component class="javax.swing.SwingUtilities$SharedOwnerFrame" id="shared frame" root="true" title="" />
+  <launch args="[]" class="Frame" classpath="../build/RicordaPSW.jar" desc="RpswGUI2" method="main" />
+  <assert args="JComboBox Instance" class="abbot.tester.JComboBoxTester" desc="Pre condizione [a,hh,pippo,r]" method="getContents" value="[a,hh,pippo,r]" />
+  <sequence>
+    <wait args="Ricorda Password" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="JComboBox Instance,pippo" class="javax.swing.JComboBox" method="actionSelectItem" />
+    <action args="Elimina elemento" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Delete" class="abbot.tester.ComponentTester" method="assertComponentShowing" timeout="20000" />
+    <action args="OptionPane.button" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Messaggio" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="OptionPane.button" class="javax.swing.AbstractButton" method="actionClick" />
+  </sequence>
+  <assert args="JComboBox Instance" class="abbot.tester.JComboBoxTester" desc="Post Condizione [a,hh,r]" method="getContents" value="[a,hh,r]" />
+  <sequence>
+    <wait args="Ricorda Password" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="JTextField Instance,0" class="javax.swing.text.JTextComponent" method="actionClick" />
+    <action args="JTextField Instance,pippo" method="actionKeyString" />
+    <action args="JTextField Instance 2,VK_TAB" method="actionKeyStroke" />
+    <action args="JTextField Instance 2,pluto" method="actionKeyString" />
+    <action args="JTextField Instance 2,VK_TAB" method="actionKeyStroke" />
+    <action args="JTextField Instance 3,paperino" method="actionKeyString" />
+    <action args="Salva" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Messaggio" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="OptionPane.button" class="javax.swing.AbstractButton" method="actionClick" />
+  </sequence>
+  <terminate />
+</AWTTestScript>
+
