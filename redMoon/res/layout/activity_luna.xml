@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:scaleType="centerCrop"
+    tools:context="com.example.redmoon.Luna" >
+    <TextView
+        android:id="@+id/dateEclipse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        style="@style/h2" />
+
+    <Button
+        android:id="@+id/nextEclipse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        style="@style/buttonStyle"
+        android:text="@string/next_event"
+        android:onClick="openNext" />
+
+    <TextView
+        android:id="@+id/startEclTime"
+        style="@style/startimeStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/midEclTime"
+        android:layout_toLeftOf="@+id/midEclTime" />
+
+    <TextView
+        android:id="@+id/endEclTime"
+        style="@style/endtimeStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/midEclTime"
+        android:layout_toRightOf="@+id/midEclTime" />
+
+    <ImageView
+        android:id="@+id/eclipseimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dateEclipse"
+        android:contentDescription="@string/noEclipse"
+        android:src="@drawable/eclipse" />
+
+    <TextView
+        android:id="@+id/midEclTime"
+        style="@style/midtimeStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eclipseimg"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nextEclText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startEclTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:contentDescription="@string/nextEclText"
+        style="@style/startimeStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/noElipse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        style="@style/startimeStyle"
+        android:layout_alignTop="@+id/startEclTime" />
+
+</RelativeLayout>
+

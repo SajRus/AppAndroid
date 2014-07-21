@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="icon">Icona</string>
+    <string name="Pressure">Pressione</string>
+    <string name="Humidity">Umidità</string>
+    <string name="Wind">Vento</string>
+    <string name="app_name">RedMoon</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Testo da visualizzare</string>
+    <string name="terra_it">Terra</string>
+    <string name="luna_it">Luna</string>
+    <string name="sole_it">Sole</string>
+    <string name="settings">Impostazioni</string>
+    <string name="aboutus_string">Info</string>
+    <string name="exit_menu_string">Esci</string>
+    <string name="terra_temp">Qualche dato sul nostro pianeta!</string>
+    <string name="sole_temp">Sorge, tramonta e non solo!</string>
+    <string name="luna_temp">Appassionamici della Luna!</string>
+
+    <color name="ice_white">#e5e5e0</color>
+
+    <dimen name="large_text">20dp</dimen>
+
+    <string name="receive_data_it">Ricevi Dati</string>
+    <string name="auto_geo">Luogo</string>
+    <string name="auto_geo_summ">Automatico / Manuale</string>
+    <string name="no_connection">Nessuna Connessione</string>
+    <string name="active_connection">Vuoi attivare una?</string>
+    <string name="connection_yes">Si</string>
+    <string name="connection_no">Esci</string>
+    <string name="pref_province_default">false</string>
+
+    <string-array name="pref_province_entrie"></string-array>
+    <string-array name="pref_province_values"></string-array>
+
+    <string name="insert_place">PLACE</string>
+    <string name="hint_city">Your City Here!</string>
+    <string name="title_activity_luna">Luna</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="next_event">Next RedMoon</string>
+    <string name="noEclipse">Oggi nessun evento</string>
+    <string name="nextEclText">Per sapere quado si verifica la prossima RedMoon clicca sul pulsate sotto.</string>
+
+</resources>

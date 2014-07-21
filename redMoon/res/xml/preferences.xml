@@ -1,0 +1,8 @@
+
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <SwitchPreference 
+            android:key="auto_geo"
+            android:title="@string/auto_geo"
+            android:summary="@string/auto_geo_summ"
+            android:defaultValue="true"/>
+    </PreferenceScreen>
